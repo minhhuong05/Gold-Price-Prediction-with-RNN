@@ -15,18 +15,17 @@ This repository implements three recurrent-neural-network families—**Vanilla R
 ---
 
 ## 2. Repository Layout
-.
-├── data/
-│ └── processed data
-│ └── gold_price(2013-2022).csv
-│ └── gold_price(2023).csv 
-├── notebooks/
-│ ├── Thesis_EDA.ipynb # exploratory data analysis – trends, seasonality, stationarity
-│ ├── RNN.ipynb # baseline vanilla RNN
-│ ├── LSTM.ipynb # LSTM architecture & tuning
-│ └── GRU_Thesis.ipynb # GRU architecture & tuning
-├── models/ # saved (best) weights & scalers
-└── README.md
+├── data/  
+│ └── processed data  
+│ └── gold_price(2013-2022).csv  
+│ └── gold_price(2023).csv   
+├── notebooks/  
+│ ├── Thesis_EDA.ipynb # exploratory data analysis – trends, seasonality, stationarity  
+│ ├── RNN.ipynb # baseline vanilla RNN  
+│ ├── LSTM.ipynb # LSTM architecture & tuning  
+│ └── GRU_Thesis.ipynb # GRU architecture & tuning  
+├── models/ # saved (best) weights & scalers  
+└── README.md  
 
 ---
 
